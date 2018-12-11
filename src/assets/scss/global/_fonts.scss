@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Sabre';
+  src: url('../fonts/Sabre-Light.woff2') format('woff2'),
+  url('../fonts/Sabre-Light.woff') format('woff'),
+  url('../fonts/Sabre-Light.svg#Sabre-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sabre';
+  src: url('../fonts/Sabre-Bold.woff2') format('woff2'),
+  url('../fonts/Sabre-Bold.woff') format('woff'),
+  url('../fonts/Sabre-Bold.svg#Sabre-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sabre Med';
+  src: url('../fonts/Sabre-Medium.woff2') format('woff2'),
+  url('../fonts/Sabre-Medium.woff') format('woff'),
+  url('../fonts/Sabre-Medium.svg#Sabre-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sabre';
+  src: url('../fonts/Sabre-Black.woff2') format('woff2'),
+  url('../fonts/Sabre-Black.woff') format('woff'),
+  url('../fonts/Sabre-Black.svg#Sabre-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+

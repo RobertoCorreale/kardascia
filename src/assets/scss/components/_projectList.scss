@@ -1,0 +1,36 @@
+.projectList {
+  list-style: none;
+  margin: 0;
+  li {
+    position: relative;
+    margin-bottom: rem-calc(30);
+    a {
+      display: block;
+      font-family: $header-font-family;
+      font-weight: bold;
+      font-size: 60px;
+      //text-shadow: 0 0 5px $primary-color;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: $primary-color;
+      -webkit-text-fill-color: white;
+      background: #fff;
+      -webkit-background-clip: text;
+
+      line-height: 1;
+
+      &:hover {
+        -webkit-text-fill-color: $primary-color;
+      }
+    }
+  }
+
+  &__image {
+    opacity: 0;
+    position: absolute;
+    max-width: rem-calc(500);
+    right: 0;
+    z-index: 10;
+    border: 2px solid $primary-color;
+  }
+
+}

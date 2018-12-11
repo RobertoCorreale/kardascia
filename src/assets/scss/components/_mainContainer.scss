@@ -1,0 +1,9 @@
+.mainContainer {
+  padding: $header-height 0 $footer-height;
+  min-height: 100%;
+  //height: 100%;
+}
+
+html, body, #barba-wrapper, .barba-container {
+  height: 100%;
+}

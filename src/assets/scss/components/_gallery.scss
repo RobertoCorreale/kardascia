@@ -1,0 +1,10 @@
+.gallery {
+  margin-top: rem-calc(60);
+
+  &__item {
+    margin-bottom: rem-calc(30);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
